@@ -1,0 +1,18 @@
+{
+  "name": "vulnerable-app",
+  "version": "1.0.0",
+  "description": "Educational vulnerable web application for learning security vulnerabilities",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "sqlite3": "5.0.0",
+    "body-parser": "1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  }
+}
